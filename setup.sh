@@ -4,7 +4,7 @@ set -e
 
 export DEBIAN_FRONTEND=noninteractive
 
-PORT=7777
+PORT=1717
 NAME="${PWD##*/}"
 
 # Add Docker's official GPG key:
