@@ -8,7 +8,7 @@ RUN python -m pip install setuptools poetry
 
 RUN poetry config virtualenvs.create false
 
-RUN poerty install
+RUN poetry install
 
 COPY ./ ./
 
