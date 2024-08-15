@@ -2,12 +2,12 @@
 
 set -e
 
-export DEBIAN_FRONTEND=noninteractive
+DEBIAN_FRONTEND=noninteractive
 
 
 # CLONE THE REPO
-PROJECT_BASE_PATH = '/src/local/apps/django-slowererrun'
-PROJECT_GIT_URL = 'https://github.com/seven-smile/django-slowerrun.git'
+PROJECT_BASE_PATH='/src/local/apps/django-slowererrun'
+PROJECT_GIT_URL='https://github.com/seven-smile/django-slowerrun.git'
 
 git clone $PROJECT_GIT_URL $PROJECT_BASE_PATH
 
